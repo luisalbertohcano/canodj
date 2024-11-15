@@ -1,0 +1,159 @@
+<div class="container">
+  <header>
+    
+    <h1>¡Bienvenidos!</h1>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<style>
+    /* Estilos para el header */
+    header {
+        background-color: #333; /* Fondo oscuro */
+        color: #fff; /* Texto blanco */
+        padding: 20px;
+        text-align: center;
+        border-bottom: 3px solid #ff6f61; /* Línea decorativa en color cálido */
+    }
+
+    /* Estilos para el título */
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+        font-family: 'Arial', sans-serif;
+        text-transform: uppercase;
+    }
+
+    /* Estilos para el nav */
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px; /* Espacio entre los elementos */
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    /* Estilos para los enlaces */
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Efecto hover para los enlaces */
+    nav ul li a:hover {
+        background-color: #ff6f61; /* Fondo de color cálido al pasar el ratón */
+        color: #fff;
+    }
+</style>
+
+    <br>
+  
+    <main>
+      <div id="inicio" class="inicio">
+        <img src="../assets/img/banner.jpg" alt="Logo" >
+      </div>
+  
+      <section id="acerca" class="acerca">
+        <h2>Acerca de</h2>
+        <h1>Cano DJ es un joven de 23 años originario de Córdoba, Veracruz. Actualmente es DJ residente en el popular antro 
+          Glow Night Club. Con su pasión por los beats electrónicos, ha logrado conquistar la escena nocturna, destacándose 
+          por su habilidad para conectar con la audiencia y crear experiencias únicas a través de la música.</h1>
+        
+      </section>
+
+
+  
+      <section id="servicios">
+        <h2>Nuestros servicios</h2>
+        <ul>
+          <li>
+            <img src="../assets/img/boda.jpeg" alt="Servicio 1" class="img-thumbnail"><br>
+            <h1>Bodas</h1>
+          </li>
+          <li>
+            <img src="../assets/img/xvaños.jpg" alt="Servicio 2" class="img-thumbnail"><br>
+            <h1>XV Años</h1>
+          </li>
+          <li>
+            <img src="../assets/img/bautizo.jpg" alt="Servicio 3" class="img-thumbnail"><br>
+            <h1>Bautizos</h1>
+          </li>
+          <li>
+            <img src="../assets/img/cumple.png" alt="Servicio 3" class="img-thumbnail"><br>
+            <h1>Cumpleaños</h1>
+          </li>
+        </ul>
+      </section>
+  
+
+      <section id="contacto" class="contacto">
+
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+  
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+  
+          <button type="submit">Enviar</button>
+        </form>
+  
+      </section>
+         
+      
+  
+      
+
+      <style>
+        /* Estilos para las redes sociales */
+        .social-media {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 10px; /* Espacio entre íconos */
+        }
+    
+        .social-icon {
+            width: 80px; /* Ancho más pequeño */
+            height: 80px; /* Alto más pequeño */
+            transition: transform 0.3s ease;
+        }
+    
+        .social-icon:hover {
+            transform: scale(1.2); /* Efecto al pasar el cursor */
+        }
+    </style>
+
+
+    </main>
+  
+    <footer>
+      <p>&copy; Cano DJ. Todos los derechos reservados.</p>
+      <a href="https://www.facebook.com/LuisAlbertoHc01" target="_blank">
+        <img src="../assets/icons/fb.png" alt="Facebook" class="social-icon">
+    </a>
+
+    <a href="https://www.instagram.com/cano7u7/" target="_blank">
+        <img src="../assets/icons/insta.png" alt="Instagram" class="social-icon">
+    </a>
+    </footer>
+  </div>
